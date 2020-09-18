@@ -1,7 +1,7 @@
 const express = require('express');
 const path = require('path');
 const fs = require('fs');
-const jsmpeg = require('./jsmpeg');
+const jsmpeg = require('./streamers/jsmpeg');
 const app = express();
 const port = 8081;
 const streamFolders = ['hls', 'dash'];
